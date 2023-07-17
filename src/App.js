@@ -1,13 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import { RouterProvider } from 'react-router-dom';
+import router from './Router/Routes/Routes';
 
 function App() {
   return (
-    <div className="App">
-      <button class="btn btn-info">Info</button>
-      <button class="btn btn-success">Success</button>
-      <button class="btn btn-warning">Warning</button>
-      <button class="btn btn-error">Error</button>
+    <div className='max-w-screen-xl mx-auto'>
+      <RouterProvider router={router}></RouterProvider>
     </div>
   );
 }
