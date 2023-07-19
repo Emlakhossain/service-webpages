@@ -3,7 +3,7 @@ import logo from '../../../../assets/logo.svg';
 
 const Footer = () => {
     return (
-        <footer className="footer p-10 bg-black text-white">
+        <footer className="footer p-10 bg-black text-white ">
             <div>
                 <img className='text-white' src={logo} alt="" />
                 <p>best machanical and technologies Tools<br />Providing reliable tech since 1992</p>
